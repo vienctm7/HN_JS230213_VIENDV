@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.thead{
+    margin-top: 20px;
+   height: 500px;
+   position: relative;
+}
+.thead_font{
+    background-color: yellow;
+    font-size: 30px;
+    position:absolute;
+    bottom: 70px;
+    width: 700px;
+    height: 120px;
+}
+article{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.article_font{
+    list-style: none;
+    border-top: solid rgb(255, 208, 0);
+    margin: 10px;
+    line-height: 50px;
+}
